@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / Frontend
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python / Django (backend)
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+db.sqlite3
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+/backend/media/
+/backend/staticfiles/
+
+# Archivos locales no relacionados con la entrega
+/actividadcienciaalparque.html
+/*.pptx
+/*.pdf
+/*.docx
+/calculadora-suma-resta/
+/componentes/
+/scripts/
+/public/icons.svg
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
